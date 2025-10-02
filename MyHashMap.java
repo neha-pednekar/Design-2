@@ -25,7 +25,7 @@ class MyHashMap {
 
     // We define the bucket size to be 10^4 considering the constraints.
     private static final int BUCKET_SIZE = 10000;
-    // We use an array of linked list nodes for storing the values.
+    // We use an array of linked list nodes for storing the key values.
     private Node[] storage;
     
     public MyHashMap() {
